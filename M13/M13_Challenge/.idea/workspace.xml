@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450b8de0-64e4-4d45-8fd7-72a99931a0e5" name="Changes" comment="" />
+    <list default="true" id="893e9335-315b-4413-bcdd-d78028c729f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WeatherAPI/src/main/java/com/company/WeatherAPI/WeatherResponse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,41 +21,39 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="24Wv4f2qyGXzaNcjVkav3nBpe2K" />
+  <component name="ProjectId" id="287tpFCeLHyRQaHq0a2ADpFLA2W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/avineeshkompella/Documents/AvineeshKompella_NetflixJavaBootcamp&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Avine\Documents\GitHub\AvineeshKompella_M1Challenge" />
-      <recent name="C:\Users\Avine\Documents\GitHub\AvineeshKompella_M1Challenge\M3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/M12/src/main/java/com.company" />
-      <recent name="$PROJECT_DIR$/M12" />
+      <recent name="$PROJECT_DIR$/WeatherAPI" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="450b8de0-64e4-4d45-8fd7-72a99931a0e5" name="Changes" comment="" />
-      <created>1643758968264</created>
+      <changelist id="893e9335-315b-4413-bcdd-d78028c729f2" name="Changes" comment="" />
+      <created>1650579635314</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1643758968264</updated>
+      <updated>1650579635314</updated>
     </task>
     <servers />
   </component>
