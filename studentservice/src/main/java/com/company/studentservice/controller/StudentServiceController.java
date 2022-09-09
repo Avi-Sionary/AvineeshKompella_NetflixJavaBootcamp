@@ -28,4 +28,16 @@ public class StudentServiceController {
     public Student getStudentByIndex(@PathVariable int index) {
         return studentList.get(index);
     }
+
+    @RequestMapping(value = "/studentsByName/{name}", method = RequestMethod.GET)
+    public Student getStudentByName(@PathVariable String name) {
+
+        for (Student s : studentList) {
+            if (s.getName().equals(name)) {
+                return s;
+            }
+        }
+
+        return null;
+    }
 }
