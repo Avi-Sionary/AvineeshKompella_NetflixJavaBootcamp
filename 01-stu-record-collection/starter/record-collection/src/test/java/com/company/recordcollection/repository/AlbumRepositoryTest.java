@@ -68,6 +68,6 @@ public class AlbumRepositoryTest {
         album1 = albumRepository.findById(album.getId());
 
         assertFalse(album1.isPresent());
-        
+
     }
 }
