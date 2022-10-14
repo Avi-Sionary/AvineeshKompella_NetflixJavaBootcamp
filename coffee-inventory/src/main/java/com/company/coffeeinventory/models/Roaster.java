@@ -1,6 +1,7 @@
 package com.company.coffeeinventory.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -14,11 +15,17 @@ public class Roaster {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer Id;
+    @NotNull
     private String Name;
+    @NotNull
     private String Street;
+    @NotNull
     private String City;
+    @NotNull
     private String State;
+    @NotNull
     private String Email;
+    @NotNull
     private String Note;
 
     @OneToMany(mappedBy = "RoasterId", cascade = CascadeType.ALL, fetch = FetchType.EAGER)

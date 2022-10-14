@@ -1,8 +1,11 @@
 package com.company.coffeeinventory.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.sun.istack.NotNull;
 
 import javax.persistence.*;
+//import javax.validation.constraints.PositiveOrZero;
+import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
@@ -14,9 +17,13 @@ public class Coffee {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer Id;
     private Integer RoasterId;
+
+    @NotNull
     private String Name;
-    private Integer Count;
-    private Float UnitPrice;
+//    @PositiveOrZero
+    private int Count;
+//    @PositiveOrZero
+    private BigDecimal UnitPrice;
     private String Description;
     private String Type;
 
@@ -28,11 +35,11 @@ public class Coffee {
         Id = id;
     }
 
-    public Integer getRoasterId() {
+    public int getRoasterId() {
         return RoasterId;
     }
 
-    public void setRoasterId(Integer roasterId) {
+    public void setRoasterId(int roasterId) {
         RoasterId = roasterId;
     }
 
@@ -44,7 +51,7 @@ public class Coffee {
         Name = name;
     }
 
-    public Integer getCount() {
+    public int getCount() {
         return Count;
     }
 
@@ -52,11 +59,11 @@ public class Coffee {
         Count = count;
     }
 
-    public Float getUnitPrice() {
+    public BigDecimal getUnitPrice() {
         return UnitPrice;
     }
 
-    public void setUnitPrice(Float unitPrice) {
+    public void setUnitPrice(BigDecimal unitPrice) {
         UnitPrice = unitPrice;
     }
 
@@ -93,5 +100,18 @@ public class Coffee {
     @Override
     public int hashCode() {
         return Objects.hash(Id, RoasterId, Name, Count, UnitPrice, Description, Type);
+    }
+
+    @Override
+    public String toString() {
+        return "Coffee{" +
+                "Id=" + Id +
+                ", RoasterId=" + RoasterId +
+                ", Name='" + Name + '\'' +
+                ", Count=" + Count +
+                ", UnitPrice=" + UnitPrice +
+                ", Description='" + Description + '\'' +
+                ", Type='" + Type + '\'' +
+                '}';
     }
 }
